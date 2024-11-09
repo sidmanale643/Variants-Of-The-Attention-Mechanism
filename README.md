@@ -9,7 +9,7 @@ Incorporates a scaling factor (1/√d_model) to prevent attention scores from ha
 
 Attention(Q, K, V) = softmax(QK^T/√d_k)V
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/87060969-eb58-4652-a795-d11a3f264299)
 
 Multi Head Attention:
 
