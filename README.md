@@ -1,5 +1,6 @@
 # Scaled Dot Product Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/SDPA.py
+
 Paper : https://arxiv.org/abs/1706.03762
 
 Introduced in the original transformer paper from 2017  
@@ -23,6 +24,7 @@ Critical for maintaining causality in language generation tasks
 
 # Multi Head Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/MHA.py  
+
 Paper : https://arxiv.org/abs/1706.03762
 
 Splits Query, Key, and Value matrices into N independent attention heads  
@@ -34,6 +36,7 @@ Enables the model to attend to information from different representation subspac
 
 # Multi Query Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/MQA.py  
+
 Paper: https://arxiv.org/abs/1911.02150
 
 Uses multiple query heads but single key and value heads  
@@ -44,6 +47,7 @@ Trade-off between efficiency and model capacity
 
 # Grouped Query Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/GQA.py  
+
 Paper: https://arxiv.org/abs/2305.13245
 
 Groups queries into sets sharing the same key and value matrices  
@@ -55,6 +59,7 @@ Better balance between computational efficiency and model performance
 
 # RoPE Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/Rope_Attention.py 
+
 Paper: https://arxiv.org/abs/2104.09864
 
 Encodes relative position information directly in the attention computation  
