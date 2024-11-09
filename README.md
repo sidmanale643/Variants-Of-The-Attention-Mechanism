@@ -10,6 +10,7 @@ Attention(Q, K, V) = softmax(QK^T/√d_k)V
 
 # Causal Masked Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/CausalMaskedAttention.py
+
 Paper : https://arxiv.org/abs/1706.03762
 
 A variant of attention mechanism designed specifically for autoregressive/generative tasks where future information should be masked
