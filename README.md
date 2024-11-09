@@ -1,6 +1,6 @@
 Scaled Dot Product Attention:
 
-Link:
+Link: (https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/SDPA.py)
 
 Paper : https://arxiv.org/abs/1706.03762
 
@@ -13,7 +13,7 @@ Attention(Q, K, V) = softmax(QK^T/√d_k)V
 
 Multi Head Attention:
 
-Link: 
+Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/MHA.py
 
 Paper : https://arxiv.org/abs/1706.03762
 
@@ -26,7 +26,7 @@ Enables the model to attend to information from different representation subspac
 
 Multi Query Attention:
 
-Link:
+Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/MQA.py
 
 Paper: https://arxiv.org/abs/1911.02150
 
@@ -39,7 +39,7 @@ Trade-off between efficiency and model capacity
 
 Grouped Query Attention:
 
-Link:
+Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/GQA.py
 
 Paper: https://arxiv.org/abs/2305.13245
 
