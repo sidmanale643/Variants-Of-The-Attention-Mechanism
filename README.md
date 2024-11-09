@@ -1,3 +1,12 @@
+# Implemented Attention Variants
+
+Scaled Dot Product Attention (SDPA): The foundational attention mechanism from the original transformer paper
+Causal Masked Attention: Implementation of masked attention for autoregressive tasks
+Multi Head Attention (MHA): The standard multi-head attention mechanism
+Multi Query Attention (MQA): Memory-efficient variant with multiple query heads
+Grouped Query Attention (GQA): Balanced approach between MHA and MQA
+RoPE Attention: Rotary Position Embedding attention implementation
+
 # Scaled Dot Product Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/SDPA.py
 
