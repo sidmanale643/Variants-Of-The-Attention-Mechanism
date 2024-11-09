@@ -63,6 +63,7 @@ Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/m
 Paper: https://arxiv.org/abs/2104.09864
 
 Encodes relative position information directly in the attention computation  
+Only Query and Key matrices are rotated
 Uses rotation matrices to encode positional information  
 Enables better handling of sequence position relationships  
 Provides theoretical advantages over traditional positional encodings
