@@ -8,6 +8,18 @@ Attention(Q, K, V) = softmax(QK^T/√d_k)V
 
 <img src="images/sdpa.png" width="600"/>
 
+# Causal Masked Attention:
+Link: (https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/CausalMaskedAttention.py)  
+Paper : https://arxiv.org/abs/1706.03762
+
+A variant of attention mechanism designed specifically for autoregressive/generative tasks where future information should be masked
+Prevents tokens from attending to future positions during sequence generation
+Applies a triangular mask to the attention scores before softmax
+Each position can only attend to itself and previous positions
+Critical for maintaining causality in language generation tasks
+
+<img src="images/cma.png" width="600"/>
+
 # Multi Head Attention:
 Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/MHA.py  
 Paper : https://arxiv.org/abs/1706.03762
@@ -41,10 +53,12 @@ Better balance between computational efficiency and model performance
 <img src="images/gqa.png" width="600"/>
 
 # RoPE Attention:
-Link:  
+Link: https://github.com/sidmanale643/Variants-Of-The-Attention-Mechanism/blob/main/Rope_Attention.py 
 Paper: https://arxiv.org/abs/2104.09864
 
 Encodes relative position information directly in the attention computation  
 Uses rotation matrices to encode positional information  
 Enables better handling of sequence position relationships  
 Provides theoretical advantages over traditional positional encodings
+
+<img src="images/rope.png" width="600"/>
